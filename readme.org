@@ -1,3 +1,15 @@
 * SDR Flowgraphs
   Some GNUradios flowgraphs, mainly FSK (de)-moludation in several
   uses cases.
+** Installation
+   On portage based systems:
+   #+begin_src shell
+USE=qt5 emerge --ask gnuradio
+   #+end_src
+** Gear Used
+   - HackRF from [[https://greatscottgadgets.com/][GREAT SCOTT GADGETS]]
+   - Yaesu FT817
+** Flowgraphs
+*** Basics Demodulation
+    - FM Signal - Basic FM signal demodulator
+    - AM Signal - Basic AM signal demodulator
