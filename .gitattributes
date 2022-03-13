@@ -1,0 +1,3 @@
+*.org linguist-detectable=true
+*.py linguist-detectable=false
+*.grc language=YAML
