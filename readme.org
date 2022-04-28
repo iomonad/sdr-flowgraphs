@@ -20,3 +20,19 @@
 *** Basics Demodulation
     - FM Signal - Basic FM signal demodulator
     - AM Signal - Basic AM signal demodulator
+
+*** FSK Modulation
+**** POCSAG
+*POCSAG* (Post Office Code Standardisation Advisory Group), in French
+historically named  *Code de radiorecherche No° 1*
+
+POCSAG is still running around the Globe, in France a company named *E.Message*
+inherited from the France Telecom's Alphapage network.
+
+Before the development and adoption of the POCSAG code, pagers used one
+of several proprietary codes such as GOLAY.
+
+The POCSAG code is generally transmitted at one of three data rates; *512*, *1200* or *2400* bits per second.
+
+The modulation used is FSK with a *±4.5 kHz* shift on the carrier.
+The high frequency represents a 0 and the low frequency a 1.
